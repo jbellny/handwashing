@@ -1,9 +1,13 @@
+<script>
+    export let barWidth = 0
+</script>
+
 <div bp='grid'>
     <div bp="offset-4@md 4@md 12@sm" class="progress-container">
         <div 
             class="progress-bar" 
-            style="width: 20%">
-            <span class="sr-only">%</span>
+            style="width: {barWidth}%">
+            <span class="sr-only">{barWidth}%</span>
         </div>
     </div>
 </div>
